@@ -178,7 +178,7 @@ function DisplayDHCPConfig() {
       <div class="panel-body">
         <div class="table-responsive">
         <?php
-		include("dhcpd-clients.php");
+		include_once("dhcpd_clients.php");
 	?>
         </div><!-- /.table-responsive -->
       </div><!-- /.panel-body -->
